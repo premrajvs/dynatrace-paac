@@ -16,5 +16,4 @@ jobs:
     steps:
       - name: Trigger API Call
         run: |
-          curl --location 'https://fnb80541.live.dynatrace.com/api/v2/settings/objects' --header 'Accept: application/json; charset=utf-8' --header 'Content-Type: application/json; charset=utf-8' --header 'Authorization: Api-Token dt0c01.72QYTJJIHFHZBJ74EBMXRWR7.QE5PHNHTBLCKP5D4M57GOX5OQRIEXX7XP54YAJ733CWO6637UD7NJNY5QPMYBZ4P' \
---data '[{"schemaId":"builtin:management-zones","schemaVersion":"1.0.12","scope":"environment","value":{"name":"sample2","description":"sample description","rules":[]}}]'
+          curl --location 'https://fnb80541.live.dynatrace.com/api/v2/settings/objects' --header 'Accept: application/json; charset=utf-8' --header 'Content-Type: application/json; charset=utf-8' --header 'Authorization: Api-Token dt0c01.72QYTJJIHFHZBJ74EBMXRWR7.QE5PHNHTBLCKP5D4M57GOX5OQRIEXX7XP54YAJ733CWO6637UD7NJNY5QPMYBZ4P' --data '[{"schemaId":"builtin:management-zones","schemaVersion":"1.0.12","scope":"environment","value":{"name":"sample2","description":"sample description","rules":[]}}]'
